@@ -9,6 +9,6 @@ import java.util.List;
 
 @Service
 public interface Student_Department {
-    void belong(int stu_id, int d_id);
+    belong(int stu_id, int d_id);
     List<Student_Department_DTO> getAllStudentCourse();
 }
