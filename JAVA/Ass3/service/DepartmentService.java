@@ -7,8 +7,8 @@ import java.util.List;
 
 @Service
 public interface DepartmentService {
-    void createDepartment(String name);
-    void updateDepartment(Integer id, String newName);
+    createDepartment(String name);
+    updateDepartment(Integer id, String newName);
     DepartmentResponseDTO findDepartmentById(Integer id);
     List<DepartmentResponseDTO> findAllDepartment(int pageNumber,int pageSize);
 }
