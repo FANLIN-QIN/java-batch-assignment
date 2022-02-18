@@ -1,4 +1,4 @@
-# SearchController
+# search-controller
   search by city name: GET .../weather/search?city=chicago&&city=seattle
   
 # swagger-ui
